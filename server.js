@@ -12,8 +12,6 @@ app.use(bodyParser.json());
 app.use('/', express.static(path.join(__dirname, 'client')));
 app.use('/', express.static(path.join(__dirname, 'css')));
 
-
-
 var resultsArr = [];
 
 
@@ -28,18 +26,18 @@ app.get('/results', function (req, res) {
 });
 
 
-//YELP API REQUEST
-function yelpSearch (loc, name) {
-  //GOOGLE API REQUEST
-  request('https://maps.googleapis.com/maps/api/place/textsearch/json?query=' + modifiedQuery + 'type=restaurant' + '&key=' + process.env.googleKey, function (error, response, body) {
-    if (!error && response.statusCode === 200) {
-      var data = JSON.parse(body);
-      resultsArr.push({name: data.results[0].name, rating: data.results[0].rating});
-    } else {
-      console.error(error);
-    }
-  });
-}
+// //YELP API REQUEST
+// function yelpSearch (loc, name) {
+//   //GOOGLE API REQUEST
+//   request('https://maps.googleapis.com/maps/api/place/textsearch/json?query=' + modifiedQuery + 'type=restaurant' + '&key=' + process.env.googleKey, function (error, response, body) {
+//     if (!error && response.statusCode === 200) {
+//       var data = JSON.parse(body);
+//       resultsArr.push({name: data.results[0].name, rating: data.results[0].rating});
+//     } else {
+//       console.error(error);
+//     }
+//   });
+// }
 
 
 // start listening to requests on port 4568
