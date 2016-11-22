@@ -4,7 +4,7 @@ var request = require('request');
 var path = require('path');
 var app = express();
 
-app.set('port', 3000);
+app.set('port', process.env.PORT);
 
 //MIDDLEWARE
 app.use(bodyParser.urlencoded({extended: true}));
@@ -44,7 +44,7 @@ function yelpSearch (loc, name) {
 
 // start listening to requests on port 4568
 console.log('goolp is listening on 4568');
-app.listen(3000);
+app.listen(process.env.PORT);
 
 // export our app for testing and flexibility, required by index.js
 module.exports = app;
