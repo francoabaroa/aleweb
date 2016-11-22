@@ -1,0 +1,24 @@
+h1#homeHeading, p {
+  color: black !important;
+}
+
+a.navbar-brand.page-scroll, a.page-scroll {
+  color: black !important;
+}
+
+.hunterimg {
+  height: 500px;
+  width: 500px;
+}
+
+.journeyimg {
+  height: 650px;
+  width: 900px;
+  display: block;
+  margin-left: -10%;
+  margin-right: 60%;
+}
+
+.headerimg {
+  background-image: url(../img/portfolio/thumbnails/artists1.png) !important;
+}
