@@ -10,20 +10,19 @@ app.set('port', process.env.PORT);
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use('/', express.static(path.join(__dirname, 'client')));
-app.use('/', express.static(path.join(__dirname, 'css')));
 
-var resultsArr = [];
+// var resultsArr = [];
 
 
-app.post('/search', function (req, res) {
-  resultsArr = [];
-  var results = yelpSearch(req.body.location, req.body.term);
-  res.status(200).send('POST request successful');
-});
+// app.post('/search', function (req, res) {
+//   resultsArr = [];
+//   var results = yelpSearch(req.body.location, req.body.term);
+//   res.status(200).send('POST request successful');
+// });
 
-app.get('/results', function (req, res) {
-  res.status(200).send(resultsArr);
-});
+// app.get('/results', function (req, res) {
+//   res.status(200).send(resultsArr);
+// });
 
 
 // //YELP API REQUEST
@@ -40,8 +39,7 @@ app.get('/results', function (req, res) {
 // }
 
 
-// start listening to requests on port 4568
-console.log('goolp is listening on 4568');
+// start listening to requests on port 3000
 app.listen(process.env.PORT);
 
 // export our app for testing and flexibility, required by index.js

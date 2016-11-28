@@ -22,3 +22,7 @@ a.navbar-brand.page-scroll, a.page-scroll {
 .headerimg {
   background-image: url(../img/portfolio/thumbnails/artists1.png) !important;
 }
+
+.orange {
+  color: white !important;
+}
