@@ -26,3 +26,12 @@ a.navbar-brand.page-scroll, a.page-scroll {
 .orange {
   color: white !important;
 }
+
+.bolded{
+  font-weight: bold;
+}
+
+.boldit{
+  font-weight: 800;
+  font-style: italic;
+}
