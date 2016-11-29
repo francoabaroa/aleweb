@@ -11,6 +11,28 @@ a.navbar-brand.page-scroll, a.page-scroll {
   width: 500px;
 }
 
+.vaimg {
+  height: 300px;
+  width: 400px;
+}
+
+.logo {
+  margin-top: -2px;
+  height: 30px;
+  width: 60px;
+  margin-bottom: -15px;
+}
+
+.imgborder {
+  border: 4px black solid;
+}
+
+.imgcenter {
+  align-self: middle !important;
+  width: 50%;
+  margin: 0 auto;
+}
+
 .journeyimg {
   height: 650px;
   width: 900px;
