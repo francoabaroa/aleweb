@@ -27,6 +27,10 @@ a.navbar-brand.page-scroll, a.page-scroll {
   border: 4px black solid;
 }
 
+.marginn {
+  margin: 10px !important;
+}
+
 .imgcenter {
   align-self: middle !important;
   width: 50%;
@@ -45,8 +49,24 @@ a.navbar-brand.page-scroll, a.page-scroll {
   background-image: url(../img/portfolio/thumbnails/artists1.png) !important;
 }
 
+.headerimg2 {
+  background-image: url(../img/portfolio/thumbnails/im33.png) !important;
+}
+
+.headerimg3 {
+  background-image: url(../img/portfolio/thumbnails/im34.png) !important;
+}
+
 .orange {
   color: white !important;
+}
+
+.test2{
+  color: #F05F40 !important;
+}
+
+.black{
+  color: black !important;
 }
 
 .bolded{
