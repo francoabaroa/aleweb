@@ -77,3 +77,9 @@ a.navbar-brand.page-scroll, a.page-scroll {
   font-weight: 800;
   font-style: italic;
 }
+
+.centerBox {
+  margin: 0 auto !important;
+  width: 50% !important;
+  text-align: center !important;
+}
