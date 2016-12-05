@@ -1,3 +1,6 @@
+# This is a portfolio I am hosting for my girlfriend
+## She designed her website using the Creative theme for Bootstrap.
+
 # [Start Bootstrap](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
 
 [Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
