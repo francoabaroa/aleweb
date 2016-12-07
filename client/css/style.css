@@ -70,16 +70,41 @@ a.navbar-brand.page-scroll, a.page-scroll {
 }
 
 .bolded{
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 .boldit{
   font-weight: 800;
   font-style: italic;
+  text-align: center !important;
 }
 
 .centerBox {
   margin: 0 auto !important;
   width: 50% !important;
   text-align: center !important;
+}
+
+.left {
+  text-align: left !important;
+}
+
+.floaty {
+  float: left !important;
+}
+
+.floaty {
+  float: right !important;
+}
+
+.center {
+  text-align: center !important;
+}
+
+.adjust {
+  margin-top: 50px;
+}
+
+.adjust1 {
+  margin-top: 70px;
 }
