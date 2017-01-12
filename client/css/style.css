@@ -113,6 +113,8 @@ a.navbar-brand.page-scroll, a.page-scroll {
   margin:0 auto;
 }
 
-max-width: 100%;
+.imgFix {
+    max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
+}
