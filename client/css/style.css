@@ -122,3 +122,8 @@ a.navbar-brand.page-scroll, a.page-scroll {
     height: auto;
     width: auto\9; /* ie8 */
 }
+
+.adjust3 {
+  margin: 20px !important;
+  padding-top: 20px;
+}
